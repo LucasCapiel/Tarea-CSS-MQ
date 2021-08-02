@@ -1,0 +1,113 @@
+body {background-color: grey;
+padding-right: 15px;}
+
+h1 {color: black;}
+
+.titulo {font-size: 20px;
+color: white;}
+
+a {font-size: 25px;}
+
+a:hover {transition: 2s ease;
+font-size: 200%;
+color:teal}
+
+
+
+
+@media only screen and (min-width: 701px) {
+    
+p {font-size: 15px;
+color: red;}
+
+.contenedor {width: 100%;
+height: 530px;
+margin-left: 0px;
+background-color: honeydew;
+display: inline-flex;}
+
+.Enlaces {width: 33%;
+height: 100%;
+padding: 5px;
+margin-left: 0%;
+background-color: rgb(236, 144, 22);
+display:flex;
+flex-direction: column;
+}
+
+.contenedor2 {height: 100%;
+width: 33%;
+padding: 5px;
+background-color: blue;
+display:flex;
+flex-direction: column;}
+
+img {border-radius: 10px;
+    opacity: 0.3;}
+
+img:hover {transition: 1s ease;
+opacity: 1;
+cursor: pointer;
+transform: scale(100%);
+border: solid 3px black;}
+
+.contenedor3 {background-color: green;
+width: 33%;
+height: 100%;
+padding: 5px;
+display: inline-flex;
+flex-direction: column;
+}
+
+ol {display: inline-flex;
+flex-direction: column;
+justify-content: space-between;}
+
+li {margin-top: 30px;
+font-size: 30px;}
+
+.Hobby:hover {cursor: pointer;
+transition: 5s ease;
+font-size: 20px;
+color: teal;}
+
+}
+
+
+
+@media only screen and (max-width:800px){
+
+p {font-size: 20px;
+color: blue;}
+
+.contenedor {display: inline-flex;
+flex-direction: column;
+width: 100%;
+height: auto;
+}
+
+.Enlaces {background-color:darkblue;
+width: 100%;
+padding: 5px;
+border: solid 2px black;}
+
+a {color: green;
+color-adjust: green;}
+
+.contenedor2 {width: 100%;
+padding: 5px;
+background-color: red;
+border: solid 2px black;}
+
+img {width: 100%;
+    border-radius: 15px;}
+
+.contenedor3 {width: 100%;
+padding: 5px;
+background-color: green;
+border:solid 2px black}
+
+ol {font-size: 20px;
+color: whitesmoke}
+
+}
